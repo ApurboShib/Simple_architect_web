@@ -5,6 +5,10 @@
       font-family: "Work Sans", sans-serif;
       font-optical-sizing: auto;
   }
+
+  .text-light-gray {
+    color: #727272;
+}
   
   /* Header section styling */
   header {
@@ -54,9 +58,7 @@
       color: #131313;
   }
   
-  .banner-description {
-      color: #727272;
-  }
+  
   
   .btn-primary {
       background-color: #FF900E;
@@ -114,12 +116,16 @@
           padding: 20px;
       }
       
-      nav {
+      nav, .teams-container
+       {
           flex-direction: column;
       }
       
       nav > ul {
           flex-direction: column;
+      }
+      .teams-img-container{
+        grid-template-columns: 1fr;
       }
   }
   /* Responsive for tablet query */
@@ -127,11 +133,16 @@
     .header {
         padding: 50px;
     }
-    .nav {
+    .nav, .teams-container {
         flex-direction: column;
     }
     .nav > ul {
         flex-direction: column;
     }
+    .teams-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    
+     }
     
   }
