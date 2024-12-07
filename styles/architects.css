@@ -249,6 +249,12 @@ main {
     }
 }
 
+footer {
+    background-color: #efedeb;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
 /* Tablets (577px to 992px) */
 @media screen and (min-width: 577px) and (max-width: 992px) {
     header {
